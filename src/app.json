@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "diy-img/demo/demo"
+  ],
+  "window": {
+    "defaultTitle": "diy-img组件",
+    "backgroundColor": "#F5F5F9",
+    "pullRefresh": false
+  },
+  "debug": true
+}

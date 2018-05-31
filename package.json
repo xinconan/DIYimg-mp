@@ -1,0 +1,23 @@
+{
+  "name": "diyimg-mp",
+  "version": "1.0.0",
+  "description": "支付宝小程序，自定义img组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinconan/diyimg-mp.git"
+  },
+  "keywords": [
+    "小程序",
+    "img"
+  ],
+  "author": "xinconan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinconan/diyimg-mp/issues"
+  },
+  "homepage": "https://github.com/xinconan/diyimg-mp#readme"
+}
