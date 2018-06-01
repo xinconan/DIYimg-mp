@@ -1,1 +1,3 @@
-<diy-img></diy-img>
+<view>
+    <diy-img errorSrc="http://file.ituring.com.cn/SmallCover/17114893a523520c7382" src="123"></diy-img>
+</view>

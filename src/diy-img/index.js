@@ -3,7 +3,7 @@ Component({
     url: '',
   },
   props: {
-    class: '',
+    className: '',
     src: '',
     errorSrc: '',
     mode: ''
@@ -11,7 +11,7 @@ Component({
   methods: {
     onImgError(e) {
       this.setData({
-        url: errorSrc
+        url: this.props.errorSrc
       })
     }
   },

@@ -1,6 +1,6 @@
 {
   "defaultTitle": "小程序diy-img组件",
   "usingComponents":{
-    "diy-img": "../index"
+    "diy-img": "/diy-img/index"
   }
 }
