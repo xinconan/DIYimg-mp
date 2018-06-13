@@ -1,1 +1,1 @@
-<image src="{{url || src}}" mode="{{mode}}" class="{{className}}" onError="onImgError"/>
+<image src="{{url || src || errorSrc}}" mode="{{mode}}" class="{{className}}" onError="onImgError"/>
