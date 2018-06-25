@@ -1,7 +1,14 @@
 # diyimg-mp
 支付宝小程序，自定义img组件
 
+[![npm Package](https://img.shields.io/npm/v/diyimg-mp.svg)](https://www.npmjs.com/package/diyimg-mp)
+[![License](https://img.shields.io/npm/l/express.svg)](https://github.com/xinconan/diyimg-mp/blob/master/LICENSE)
+
 ## 使用方式
+```bash
+npm install diyimg-mp --save
+```
+在需要使用的页面中添加配置
 ```json
 // page.json 注意，不是在app.json里配置
 {
