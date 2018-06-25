@@ -1,9 +1,10 @@
 {
   "name": "diyimg-mp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "支付宝小程序，自定义img组件",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rc-tools run compile && node scripts/cp.js && node scripts/rm.js",
+    "pub": "git push origin && npm run build && npm publish"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/xinconan/diyimg-mp/issues"
   },
-  "homepage": "https://github.com/xinconan/diyimg-mp#readme"
+  "homepage": "https://github.com/xinconan/diyimg-mp#readme",
+  "devDependencies": {
+    "rc-tools": "^8.1.1"
+  }
 }

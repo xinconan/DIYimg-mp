@@ -1,1 +1,5 @@
 .tea
+node_modules
+.vscode
+/lib/
+/es/

@@ -6,7 +6,7 @@
 // page.json 注意，不是在app.json里配置
 {
   "usingComponents":{
-    "diy-img":"diyimg-mp/diy-img/index"
+    "diy-img": "diyimg-mp/es/diy-img/index"
   }
 }
 ```

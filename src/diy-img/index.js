@@ -9,7 +9,7 @@ Component({
     mode: ''
   },
   methods: {
-    onImgError(e) {
+    onImgError() {
       this.setData({
         url: this.props.errorSrc
       })
